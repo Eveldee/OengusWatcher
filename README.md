@@ -1,6 +1,6 @@
 # OengusWatcher
 
-![Preview screenshot](Preview.png)
+![Preview screenshot](Screenshots/Preview.png)
 
 > A simple discord notification webhook for new marathons on Oengus
 
@@ -63,7 +63,7 @@ version: '3'
 To build and run the service from source, a few steps are required:
 - Clone this repository and make sure .Net 8.0 SDK is installed
 - Set the Redis and Discord Webhook options using either [app secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets#secret-manager) _(recommended)_ or [environment variables](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration-providers#environment-variable-configuration-provider) _(same names as for the docker hosting)_
-- Use the command `dotnet run` inside the root folder *(where `OengusWatcher.csproj` is located)*
+- Use the command `dotnet run` inside the project folder *(where `OengusWatcher.csproj` is located)*
 - This will build and run the service, errors will show up if you incorrectly configured the Redis and Webhook options
 
 Alternatively, it is possible to build the docker image using the `docker-publish.sh` script.

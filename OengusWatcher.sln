@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OengusWatcher", "OengusWatcher.csproj", "{C8AB2EC9-DE94-4CD3-9418-49F4AE96AEE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OengusWatcher", "OengusWatcher\OengusWatcher.csproj", "{C8AB2EC9-DE94-4CD3-9418-49F4AE96AEE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
