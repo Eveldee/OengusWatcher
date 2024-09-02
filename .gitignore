@@ -688,3 +688,5 @@ fabric.properties
 marathons.json
 .posting
 OengusWatcher.sln.DotSettings
+
+.vscode
