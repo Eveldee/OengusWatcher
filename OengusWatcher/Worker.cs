@@ -107,7 +107,7 @@ public class Worker : BackgroundService
                 .AddField("Submission End Date", ToTimeStamp(marathon.SubmissionsEndDate))
 
                 .AddField("Language", $"{ToFlag(marathon.Language)} {marathon.Language.ToUpperInvariant()}", true)
-                .AddField("On Site", marathon.Onsite, true)
+                .AddField("On Site", marathon.Onsite ? "Yes" : "No", true)
 
                 .Build();
         }
